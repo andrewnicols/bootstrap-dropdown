@@ -112,4 +112,4 @@ NS.dropdown_delegation = function() {
 };
 
 
-}, '2014091701');
+}, '2014091702', {"use": ["plugin", "event", "event-outside"]});
