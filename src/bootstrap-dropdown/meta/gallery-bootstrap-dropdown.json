@@ -1,5 +1,5 @@
 {
-    "bootsgtrap-gallery-dropdown": {
+    "bootstrap-gallery-dropdown": {
         "use": [
             "plugin",
             "event",
