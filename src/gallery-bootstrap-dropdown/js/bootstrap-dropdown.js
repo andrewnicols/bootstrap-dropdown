@@ -25,7 +25,7 @@ It can also be plugged into any node or node list.
 
 var NS = Y.namespace('Bootstrap');
 
-function DropdownPlugin(config) {
+function DropdownPlugin() {
   DropdownPlugin.superclass.constructor.apply(this, arguments);
 }
 
@@ -54,7 +54,7 @@ Y.extend( DropdownPlugin, Y.Plugin.Base, {
             className = this.config.className;
 
         target.toggleClass( className );
-        target.once('clickoutside', function(e) {
+        target.once('clickoutside', function() {
             target.toggleClass( className );
         });
     },
@@ -75,7 +75,7 @@ Y.extend( DropdownPlugin, Y.Plugin.Base, {
     /**
     @method getTarget
     @description Fetches a Y.NodeList or Y.Node that should be used to modify class names
-    **/ 
+    **/
     getTarget : function() {
         var node     = this._node,
             selector = node.getData( this.config.target ),
