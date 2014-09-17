@@ -1,0 +1,10 @@
+{
+    "name": "gallery-bootstrap-dropdown",
+    "builds": {
+        "gallery-bootstrap-dropdown": {
+            "jsfiles": [
+                "bootstrap-dropdown.js"
+            ]
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "bootsgtrap-gallery-dropdown": {
+        "use": [
+            "plugin",
+            "event",
+            "event-outside"
+        ]
+    }
+}
