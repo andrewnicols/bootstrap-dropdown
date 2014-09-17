@@ -112,4 +112,4 @@ NS.dropdown_delegation = function() {
 };
 
 
-}, '@VERSION@');
+}, '2014091700');
